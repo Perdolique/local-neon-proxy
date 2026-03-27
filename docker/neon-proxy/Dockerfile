@@ -1,6 +1,6 @@
 # hadolint global ignore=DL3008
 
-ARG NEON_RELEASE_TAG=release-7845
+ARG NEON_RELEASE_TAG=release-proxy-8853
 
 FROM rust:bookworm AS rust-builder
 ARG NEON_RELEASE_TAG
