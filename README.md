@@ -112,7 +112,7 @@ await pool.end();
 ## Developing
 
 1. Clone this repository
-2. Run `docker-compose up` to start the PostgreSQL database and the neon http proxy (building the
+2. Run `docker compose up` to start the PostgreSQL database and the neon http proxy (building the
    Docker image for the first time might take a while)
 3. Run `npm install` to install the dependencies
 4. Run `npm test` to run the sample to validate the connection to the database works
